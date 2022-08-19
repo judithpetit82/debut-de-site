@@ -1,0 +1,88 @@
+* {
+box-sizing: border-box;
+list-style-type: none;
+}
+
+body {
+    font-family: cursive;
+    font-size:14px;
+    line-height: 16px;
+    margin:0px;
+    padding:0px;
+}
+
+header img{
+    float:left;
+    width: 80px;
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+.wrapper {
+    margin:0 auto;
+    width:1000px; 
+}
+
+
+header li {
+    display : inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+header li a {
+    display: block;
+    padding: 20px;
+
+    
+}
+
+header li a:hover {
+    color: yellow;
+    background-color: pink;
+}
+
+header li:hover .submenu{
+    display: block;
+}
+
+.submenu {
+    display:none;
+    position: absolute;
+    background-color:rgb(red, green, blue);
+    width: 150px;
+}
+
+.submenu li a:hover{
+    background-color: pink;
+    color: yellow;
+}
+
+thead{
+    background-color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+    
